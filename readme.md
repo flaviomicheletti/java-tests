@@ -1,4 +1,4 @@
-# Brincando de testar as coisas em Java
+# Aprendendo e testando
 
 
 ### Run tests
