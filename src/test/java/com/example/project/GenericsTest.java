@@ -1,11 +1,8 @@
 package com.example.project;
 
-import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.Test;
-import java.util.ArrayList;
-import java.util.List;
-
-
+//import java.util.ArrayList;
+//import java.util.List;
 
 //
 //https://www.tutorialspoint.com/java/java_generics.htm
@@ -43,9 +40,9 @@ class GenericsTest {
         // list.add("hello");
         // String s = (String) list.get(0); // cast
 
-        List<String> list = new ArrayList<String>();
-        list.add("hello");
-        String s = list.get(0);   // no cast
+        // List<String> list = new ArrayList<String>();
+        // list.add("hello");
+        // String s = list.get(0);   // no cast
     }
 
 }
