@@ -1,11 +1,10 @@
 package com.example.project;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
-
+import org.junit.jupiter.api.Test;
 import java.util.Arrays;
 
 //import org.junit.jupiter.api.DisplayName;
-import org.junit.jupiter.api.Test;
 // import org.junit.jupiter.params.ParameterizedTest;
 // import org.junit.jupiter.params.provider.CsvSource;
 
@@ -56,8 +55,8 @@ public class ArraysTest {
     @Test
     public void equals(){
 
-        int[] arr1 = {};
-        int[] arr2 = {};
+        // int[] arr1 = {};
+        // int[] arr2 = {};
 
         //
         // https://junit.org/junit4/javadoc/4.8/org/junit/Assert.html#assertArrayEquals(byte[],%20byte[])
