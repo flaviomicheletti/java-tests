@@ -2,8 +2,8 @@
 // https://github.com/eugenp/tutorials/tree/master/testing-modules/junit-5
 package com.example.project;
 
+import static org.junit.jupiter.api.Assertions.assertThrows;
 import org.junit.jupiter.api.Test;
-import static org.junit.jupiter.api.Assertions.*;
 
 public class ExceptionTest {
 

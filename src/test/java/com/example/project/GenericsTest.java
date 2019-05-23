@@ -1,14 +1,12 @@
 package com.example.project;
 
-import org.junit.jupiter.api.Test;
-
 import static org.junit.jupiter.api.Assertions.assertEquals;
-
+import org.junit.jupiter.api.Test;
 import java.util.ArrayList;
 import java.util.List;
 
 //
-//https://www.tutorialspoint.com/java/java_generics.htm
+// https://www.tutorialspoint.com/java/java_generics.htm
 //
 class GenericsTest {
 	
