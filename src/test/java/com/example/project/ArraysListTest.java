@@ -7,9 +7,9 @@ import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 
-/*
- * https://docs.oracle.com/javase/10/docs/api/java/util/ArrayList.html
- */
+//
+// https://docs.oracle.com/javase/10/docs/api/java/util/ArrayList.html
+//
 public class ArraysListTest {
    
 	//
