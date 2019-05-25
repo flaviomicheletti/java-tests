@@ -9,19 +9,19 @@ import java.util.List;
 // https://www.tutorialspoint.com/java/java_generics.htm
 //
 class GenericsTest {
-	
+
     public static < E > int getLength( E[] arr )
     {
-    	
+
 //        for(E value : arr)
 //        {
 //            System.out.printf("%s ", value);
 //        }
 //        System.out.println();
-        
+
         return arr.length;
     }
-	
+
 
 	@Test
 	void firstTest() {
@@ -32,7 +32,7 @@ class GenericsTest {
         assertEquals(3, getLength(intArray));
         assertEquals(4, getLength(doubleArray));
         assertEquals(5, getLength(charArray));
-                
+
     }
 
     @Test
@@ -46,13 +46,13 @@ class GenericsTest {
       list2.add("hello");
       String s2 = list2.get(0);   // no cast
 
-    }	
-	
+    }
+
     //
     // https://www.devmedia.com.br/java-generics-trabalhando-com-metodos/30911
     //
     @Test
-    void listCOmeSemGenerics() {
+    void listComeSemGenerics() {
 
     	Generics obj = new Generics();
         assertEquals(6, obj.listComGenerics());
