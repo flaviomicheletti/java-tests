@@ -3,9 +3,16 @@
 package com.example.project;
 
 import static org.junit.jupiter.api.Assertions.assertThrows;
+import org.junit.jupiter.api.function.Executable;
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 public class ExceptionTest {
+
+	protected void vaiDarRuim() {
+        String test = null;
+        test.length();
+	}
 
     @Test
     public void whenExceptionThrown_thenAssertionSucceeds() {
@@ -20,6 +27,30 @@ public class ExceptionTest {
         String test = null;
         assertThrows(RuntimeException.class, () -> {
             test.length();
+        });
+    }
+
+    //
+    // https://howtodoinjava.com/junit5/expected-exception-example/
+    //
+    @Test
+    void testExpectedException() {
+    	Assertions.assertThrows(NumberFormatException.class, () -> {
+    		Integer.parseInt("One");
+    	});
+    }
+
+    //
+    // https://www.codejava.net/testing/junit-test-exception-examples-how-to-assert-an-exception-is-thrown
+    //
+    @Test
+    public void testUsernameIsNull() {
+        assertThrows(NumberFormatException.class, new Executable() {
+
+            @Override
+            public void execute() throws Throwable {
+        		Integer.parseInt("One");
+            }
         });
     }
 
