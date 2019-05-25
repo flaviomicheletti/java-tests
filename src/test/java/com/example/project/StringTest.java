@@ -36,4 +36,11 @@ public class StringTest {
 
     }
 
+    @Test
+    public void concat(){
+    	String s = "abcd";
+    	assertEquals("abcdef", s.concat("ef"));
+    }
+
+
 }
