@@ -25,8 +25,21 @@ public class ArraysTest {
         arr = new int[10];
         assertEquals(10, arr.length);
 
-    }	
-    
+    }
+
+    @Test
+    public void criandoOutrasFormas(){
+
+    	String[] aArray = new String[5];
+    	String[] bArray = {"a","b","c", "d", "e"};
+    	String[] cArray = new String[]{"a","b","c","d","e"};
+
+        assertEquals(5, aArray.length);
+        assertEquals(5, bArray.length);
+        assertEquals(5, cArray.length);
+
+    }
+
     @Test
     public void instanciando(){
 
@@ -38,7 +51,7 @@ public class ArraysTest {
         assertEquals("[I", otherarray.getClass().getName());
 
     }
-    
+
     //
     // https://stackoverflow.com/questions/8777257/equals-vs-arrays-equals-in-java
     //
@@ -51,10 +64,10 @@ public class ArraysTest {
         assertFalse(arr1 == arr2);
         assertFalse(arr1.equals(arr2));
         assertTrue(Arrays.equals(arr1, arr2));
-        assertArrayEquals(arr1, arr2);        
+        assertArrayEquals(arr1, arr2);
 
     }
-    
+
     @Test
     public void somando(){
         int[] arr = new int[] {10, 10, 10};
@@ -66,7 +79,19 @@ public class ArraysTest {
         assertEquals(30, sum);
 
         assertEquals(30, Arrays.stream(arr).sum());
-    }    
-   
-    
+    }
+
+    @Test
+    public void arrayToString(){
+    	int[] arr = { 1, 2, 3, 4, 5 };
+    	String str = Arrays.toString(arr);
+
+    	assertEquals("[1, 2, 3, 4, 5]", str);
+    }
+
+    //
+    // next ?
+    // https://www.programcreek.com/2013/09/top-10-methods-for-java-arrays/
+    //
+
 }
