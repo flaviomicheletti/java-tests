@@ -7,9 +7,9 @@
 
     or
 
-    gradle mvn test
-    
-    ou
+    gradle test
+
+    or
     
     ./gradlew test 
 
