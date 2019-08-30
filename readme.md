@@ -1,4 +1,4 @@
-# Java test
+# Java Test
 
 Testing Java.
 
