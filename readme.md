@@ -1,7 +1,8 @@
-# Aprendendo e testando
+# Java test
 
+Testing Java.
 
-### Run tests
+__Run tests__
 
     mvn clean test
 
@@ -14,7 +15,7 @@
     ./gradlew test 
 
 
-### Próximos testes
+### Next
 
 https://blog.caelum.com.br/o-minimo-que-voce-deve-saber-de-java-8/
 
