@@ -8,6 +8,10 @@
     or
 
     gradle mvn test
+    
+    ou
+    
+    ./gradlew test 
 
 
 ### Próximos testes
