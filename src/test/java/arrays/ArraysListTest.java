@@ -1,4 +1,4 @@
-package com.example.project;
+package arrays;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
@@ -38,7 +38,7 @@ public class ArraysListTest {
     @Test
     public void tamanhoVariavel(){
         ArrayList<String> lista = new ArrayList<String>();
-        lista.add("foo");
+        lista.add("generics");
         lista.add("bar");
         lista.add("baz");
         assertEquals(3, lista.size());

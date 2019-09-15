@@ -1,4 +1,4 @@
-package com.example.project;
+package exceptions;
 
 import org.junit.jupiter.api.Test;
 

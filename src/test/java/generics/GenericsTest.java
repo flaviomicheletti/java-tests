@@ -1,6 +1,8 @@
-package com.example.project;
+package generics;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
+
+import generics.Generics;
 import org.junit.jupiter.api.Test;
 import java.util.ArrayList;
 import java.util.List;
