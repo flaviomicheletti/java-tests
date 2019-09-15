@@ -1,4 +1,4 @@
-# Java Test
+r# Java Test
 
 Testing Java.
 
@@ -17,5 +17,6 @@ __Run tests__
 
 ### Next
 
-https://blog.caelum.com.br/o-minimo-que-voce-deve-saber-de-java-8/
++ https://docs.oracle.com/javase/tutorial/getStarted/end.html
++ https://blog.caelum.com.br/o-minimo-que-voce-deve-saber-de-java-8/
 
