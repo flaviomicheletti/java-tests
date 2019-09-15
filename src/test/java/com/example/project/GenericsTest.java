@@ -12,13 +12,6 @@ class GenericsTest {
 
     public static < E > int getLength( E[] arr )
     {
-
-//        for(E value : arr)
-//        {
-//            System.out.printf("%s ", value);
-//        }
-//        System.out.println();
-
         return arr.length;
     }
 
@@ -52,7 +45,7 @@ class GenericsTest {
     // https://www.devmedia.com.br/java-generics-trabalhando-com-metodos/30911
     //
     @Test
-    void listComeSemGenerics() {
+    void listComSemGenerics() {
 
     	Generics obj = new Generics();
         assertEquals(6, obj.listComGenerics());
