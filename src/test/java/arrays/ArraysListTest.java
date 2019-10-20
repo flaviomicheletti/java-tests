@@ -4,6 +4,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 import org.junit.jupiter.api.Test;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.List;
 
@@ -45,7 +46,19 @@ public class ArraysListTest {
 
         lista.add("lish");
         assertEquals(4, lista.size());
-        
+    }     
+
+    @Test
+    public void asListTest(){
+    	
+		List<String> expected = Arrays.asList("1", "2", "3");
+		
+		List<String> actual = new LinkedList<>();
+		actual.add("1");
+		actual.add("2");
+		actual.add("3");
+    	
+        assertEquals(expected, actual);
     }     
     
 }
